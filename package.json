@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@inquirer/prompts": "^7.5.1",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.19"
+  }
+}

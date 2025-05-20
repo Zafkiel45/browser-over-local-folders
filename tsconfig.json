@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                      // Alinha com a engine do Node 22
+    "lib": ["ES2022"],       
+    "module": "ESNext",                // APIs modernas
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "rootDir": "./src", 
+    "types": ["node"],
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
